@@ -20,146 +20,44 @@
   <rect width="1200" height="300" rx="20" fill="url(#bg)"/>
   <rect x="0.5" y="0.5" width="1199" height="299" rx="19.5" fill="none" stroke="#ffffff" stroke-opacity="0.06"/>
 
-  <!-- Distribution graph (right side). The Octocat hub at (960,150) is a
-       non-stop distributor: a narrow line flickers on like a fluorescent
-       lamp warming up along a random path, a value packet travels in to the
-       hub (or out from it), then the line goes dark while another channel
-       lights up elsewhere. Each channel runs on its own non-harmonic period
-       so the overall pattern never visibly repeats. -->
-
-  <!-- faint endpoint nodes -->
-  <g fill="#8b93a7" fill-opacity="0.35">
-    <circle cx="790" cy="70"  r="2.5"/>
-    <circle cx="1140" cy="95" r="2.5"/>
-    <circle cx="1080" cy="235" r="2.5"/>
-    <circle cx="840" cy="238" r="2.5"/>
-    <circle cx="1165" cy="175" r="2.5"/>
-    <circle cx="772" cy="150" r="2.5"/>
-    <circle cx="1010" cy="48" r="2.5"/>
-    <circle cx="918" cy="252" r="2.5"/>
+  <!-- agent spend graph (right side): a hub node (the Octocat), drifting
+       satellites, and value "flowing" along the edges toward the hub. Edges
+       and packets stop at the hub's outer rim (radius 30 around 960,150) and
+       are drawn beneath the Octocat so they collide with its edge, not its
+       centre. -->
+  <g stroke="#60a5fa" stroke-width="1.2" stroke-dasharray="4 8">
+    <line x1="820" y1="80"  x2="933.2" y2="136.6" stroke-opacity="0.3"><animate attributeName="stroke-dashoffset" values="24;0" dur="2.4s" repeatCount="indefinite"/></line>
+    <line x1="1080" y1="90" x2="986.8" y2="136.6" stroke-opacity="0.3"><animate attributeName="stroke-dashoffset" values="24;0" dur="3s" repeatCount="indefinite"/></line>
+    <line x1="1040" y1="230" x2="981.2" y2="171.2" stroke-opacity="0.3"><animate attributeName="stroke-dashoffset" values="24;0" dur="2.7s" repeatCount="indefinite"/></line>
+    <line x1="860" y1="220" x2="935.4" y2="167.2" stroke-opacity="0.3"><animate attributeName="stroke-dashoffset" values="24;0" dur="3.3s" repeatCount="indefinite"/></line>
+    <line x1="1130" y1="170" x2="1080" y2="90" stroke-opacity="0.22"><animate attributeName="stroke-dashoffset" values="24;0" dur="3.6s" repeatCount="indefinite"/></line>
   </g>
 
-  <!-- channel 1: in, green, 3.7s -->
+  <!-- satellites -->
   <g>
-    <line x1="960" y1="150" x2="790" y2="70" stroke="#6ee7b7" stroke-width="5" stroke-linecap="round" stroke-opacity="0">
-      <animate attributeName="stroke-opacity" values="0;0.08;0;0.14;0.04;0.2;0.2;0;0" keyTimes="0;0.04;0.07;0.1;0.13;0.18;0.55;0.62;1" dur="6.0s" begin="0s" repeatCount="indefinite"/>
-    </line>
-    <line x1="960" y1="150" x2="790" y2="70" stroke="#6ee7b7" stroke-width="1.4" stroke-linecap="round" stroke-opacity="0">
-      <animate attributeName="stroke-opacity" values="0;0.6;0;0.95;0.2;1;1;0;0" keyTimes="0;0.04;0.07;0.1;0.13;0.18;0.55;0.62;1" dur="6.0s" begin="0s" repeatCount="indefinite"/>
-    </line>
-    <circle r="3" fill="#6ee7b7" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.18;0.2;0.55;0.6;1" dur="6.0s" begin="0s" repeatCount="indefinite"/>
-      <animateMotion path="M790,70 L960,150" keyPoints="0;0;1;1" keyTimes="0;0.18;0.55;1" calcMode="linear" dur="6.0s" begin="0s" repeatCount="indefinite"/>
-    </circle>
+    <circle cx="820" cy="80" r="4" fill="#60a5fa"><animate attributeName="cy" values="80;72;80" dur="6s" repeatCount="indefinite"/><animate attributeName="fill-opacity" values="0.4;1;0.4" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1080" cy="90" r="4" fill="#60a5fa"><animate attributeName="cx" values="1080;1090;1080" dur="7s" repeatCount="indefinite"/><animate attributeName="fill-opacity" values="1;0.4;1" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1040" cy="230" r="4" fill="#f0abfc"><animate attributeName="cy" values="230;222;230" dur="6.5s" repeatCount="indefinite"/><animate attributeName="fill-opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="860" cy="220" r="3.5" fill="#60a5fa"><animate attributeName="cx" values="860;852;860" dur="7.5s" repeatCount="indefinite"/><animate attributeName="fill-opacity" values="1;0.3;1" dur="4.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1130" cy="170" r="3.5" fill="#6ee7b7"><animate attributeName="cy" values="170;162;170" dur="6.8s" repeatCount="indefinite"/><animate attributeName="fill-opacity" values="0.4;1;0.4" dur="3.8s" repeatCount="indefinite"/></circle>
   </g>
 
-  <!-- channel 2: out, blue, 4.9s -->
+  <!-- flowing value packets (stop at the hub rim, beneath the Octocat) -->
   <g>
-    <line x1="960" y1="150" x2="1140" y2="95" stroke="#60a5fa" stroke-width="5" stroke-linecap="round" stroke-opacity="0">
-      <animate attributeName="stroke-opacity" values="0;0.08;0;0.14;0.04;0.2;0.2;0;0" keyTimes="0;0.04;0.07;0.1;0.13;0.18;0.55;0.62;1" dur="7.8s" begin="-2.6s" repeatCount="indefinite"/>
-    </line>
-    <line x1="960" y1="150" x2="1140" y2="95" stroke="#60a5fa" stroke-width="1.4" stroke-linecap="round" stroke-opacity="0">
-      <animate attributeName="stroke-opacity" values="0;0.6;0;0.95;0.2;1;1;0;0" keyTimes="0;0.04;0.07;0.1;0.13;0.18;0.55;0.62;1" dur="7.8s" begin="-2.6s" repeatCount="indefinite"/>
-    </line>
-    <circle r="3" fill="#60a5fa" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.18;0.2;0.55;0.6;1" dur="7.8s" begin="-2.6s" repeatCount="indefinite"/>
-      <animateMotion path="M960,150 L1140,95" keyPoints="0;0;1;1" keyTimes="0;0.18;0.55;1" calcMode="linear" dur="7.8s" begin="-2.6s" repeatCount="indefinite"/>
-    </circle>
+    <circle r="2.6" fill="#6ee7b7"><animateMotion path="M820,80 L933.2,136.6" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle r="2.6" fill="#f0abfc"><animateMotion path="M1040,230 L981.2,171.2" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle r="2.6" fill="#60a5fa"><animateMotion path="M1080,90 L986.8,136.6" dur="3s" repeatCount="indefinite"/></circle>
   </g>
 
-  <!-- channel 3: in, magenta, 4.1s -->
-  <g>
-    <line x1="960" y1="150" x2="1080" y2="235" stroke="#f0abfc" stroke-width="5" stroke-linecap="round" stroke-opacity="0">
-      <animate attributeName="stroke-opacity" values="0;0.08;0;0.14;0.04;0.2;0.2;0;0" keyTimes="0;0.04;0.07;0.1;0.13;0.18;0.55;0.62;1" dur="6.6s" begin="-3.8s" repeatCount="indefinite"/>
-    </line>
-    <line x1="960" y1="150" x2="1080" y2="235" stroke="#f0abfc" stroke-width="1.4" stroke-linecap="round" stroke-opacity="0">
-      <animate attributeName="stroke-opacity" values="0;0.6;0;0.95;0.2;1;1;0;0" keyTimes="0;0.04;0.07;0.1;0.13;0.18;0.55;0.62;1" dur="6.6s" begin="-3.8s" repeatCount="indefinite"/>
-    </line>
-    <circle r="3" fill="#f0abfc" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.18;0.2;0.55;0.6;1" dur="6.6s" begin="-3.8s" repeatCount="indefinite"/>
-      <animateMotion path="M1080,235 L960,150" keyPoints="0;0;1;1" keyTimes="0;0.18;0.55;1" calcMode="linear" dur="6.6s" begin="-3.8s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- channel 4: out, blue, 5.3s -->
-  <g>
-    <line x1="960" y1="150" x2="840" y2="238" stroke="#60a5fa" stroke-width="5" stroke-linecap="round" stroke-opacity="0">
-      <animate attributeName="stroke-opacity" values="0;0.08;0;0.14;0.04;0.2;0.2;0;0" keyTimes="0;0.04;0.07;0.1;0.13;0.18;0.55;0.62;1" dur="8.4s" begin="-1.4s" repeatCount="indefinite"/>
-    </line>
-    <line x1="960" y1="150" x2="840" y2="238" stroke="#60a5fa" stroke-width="1.4" stroke-linecap="round" stroke-opacity="0">
-      <animate attributeName="stroke-opacity" values="0;0.6;0;0.95;0.2;1;1;0;0" keyTimes="0;0.04;0.07;0.1;0.13;0.18;0.55;0.62;1" dur="8.4s" begin="-1.4s" repeatCount="indefinite"/>
-    </line>
-    <circle r="3" fill="#60a5fa" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.18;0.2;0.55;0.6;1" dur="8.4s" begin="-1.4s" repeatCount="indefinite"/>
-      <animateMotion path="M960,150 L840,238" keyPoints="0;0;1;1" keyTimes="0;0.18;0.55;1" calcMode="linear" dur="8.4s" begin="-1.4s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- channel 5: in, green, 3.3s -->
-  <g>
-    <line x1="960" y1="150" x2="1165" y2="175" stroke="#6ee7b7" stroke-width="5" stroke-linecap="round" stroke-opacity="0">
-      <animate attributeName="stroke-opacity" values="0;0.08;0;0.14;0.04;0.2;0.2;0;0" keyTimes="0;0.04;0.07;0.1;0.13;0.18;0.55;0.62;1" dur="5.4s" begin="-3.2s" repeatCount="indefinite"/>
-    </line>
-    <line x1="960" y1="150" x2="1165" y2="175" stroke="#6ee7b7" stroke-width="1.4" stroke-linecap="round" stroke-opacity="0">
-      <animate attributeName="stroke-opacity" values="0;0.6;0;0.95;0.2;1;1;0;0" keyTimes="0;0.04;0.07;0.1;0.13;0.18;0.55;0.62;1" dur="5.4s" begin="-3.2s" repeatCount="indefinite"/>
-    </line>
-    <circle r="3" fill="#6ee7b7" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.18;0.2;0.55;0.6;1" dur="5.4s" begin="-3.2s" repeatCount="indefinite"/>
-      <animateMotion path="M1165,175 L960,150" keyPoints="0;0;1;1" keyTimes="0;0.18;0.55;1" calcMode="linear" dur="5.4s" begin="-3.2s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- channel 6: out, magenta, 4.5s -->
-  <g>
-    <line x1="960" y1="150" x2="772" y2="150" stroke="#f0abfc" stroke-width="5" stroke-linecap="round" stroke-opacity="0">
-      <animate attributeName="stroke-opacity" values="0;0.08;0;0.14;0.04;0.2;0.2;0;0" keyTimes="0;0.04;0.07;0.1;0.13;0.18;0.55;0.62;1" dur="7.2s" begin="-5.0s" repeatCount="indefinite"/>
-    </line>
-    <line x1="960" y1="150" x2="772" y2="150" stroke="#f0abfc" stroke-width="1.4" stroke-linecap="round" stroke-opacity="0">
-      <animate attributeName="stroke-opacity" values="0;0.6;0;0.95;0.2;1;1;0;0" keyTimes="0;0.04;0.07;0.1;0.13;0.18;0.55;0.62;1" dur="7.2s" begin="-5.0s" repeatCount="indefinite"/>
-    </line>
-    <circle r="3" fill="#f0abfc" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.18;0.2;0.55;0.6;1" dur="7.2s" begin="-5.0s" repeatCount="indefinite"/>
-      <animateMotion path="M960,150 L772,150" keyPoints="0;0;1;1" keyTimes="0;0.18;0.55;1" calcMode="linear" dur="7.2s" begin="-5.0s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- channel 7: in, blue, 5.9s -->
-  <g>
-    <line x1="960" y1="150" x2="1010" y2="48" stroke="#60a5fa" stroke-width="5" stroke-linecap="round" stroke-opacity="0">
-      <animate attributeName="stroke-opacity" values="0;0.08;0;0.14;0.04;0.2;0.2;0;0" keyTimes="0;0.04;0.07;0.1;0.13;0.18;0.55;0.62;1" dur="9.4s" begin="-1.8s" repeatCount="indefinite"/>
-    </line>
-    <line x1="960" y1="150" x2="1010" y2="48" stroke="#60a5fa" stroke-width="1.4" stroke-linecap="round" stroke-opacity="0">
-      <animate attributeName="stroke-opacity" values="0;0.6;0;0.95;0.2;1;1;0;0" keyTimes="0;0.04;0.07;0.1;0.13;0.18;0.55;0.62;1" dur="9.4s" begin="-1.8s" repeatCount="indefinite"/>
-    </line>
-    <circle r="3" fill="#60a5fa" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.18;0.2;0.55;0.6;1" dur="9.4s" begin="-1.8s" repeatCount="indefinite"/>
-      <animateMotion path="M1010,48 L960,150" keyPoints="0;0;1;1" keyTimes="0;0.18;0.55;1" calcMode="linear" dur="9.4s" begin="-1.8s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- channel 8: out, green, 4.3s -->
-  <g>
-    <line x1="960" y1="150" x2="918" y2="252" stroke="#6ee7b7" stroke-width="5" stroke-linecap="round" stroke-opacity="0">
-      <animate attributeName="stroke-opacity" values="0;0.08;0;0.14;0.04;0.2;0.2;0;0" keyTimes="0;0.04;0.07;0.1;0.13;0.18;0.55;0.62;1" dur="6.9s" begin="-5.8s" repeatCount="indefinite"/>
-    </line>
-    <line x1="960" y1="150" x2="918" y2="252" stroke="#6ee7b7" stroke-width="1.4" stroke-linecap="round" stroke-opacity="0">
-      <animate attributeName="stroke-opacity" values="0;0.6;0;0.95;0.2;1;1;0;0" keyTimes="0;0.04;0.07;0.1;0.13;0.18;0.55;0.62;1" dur="6.9s" begin="-5.8s" repeatCount="indefinite"/>
-    </line>
-    <circle r="3" fill="#6ee7b7" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.18;0.2;0.55;0.6;1" dur="6.9s" begin="-5.8s" repeatCount="indefinite"/>
-      <animateMotion path="M960,150 L918,252" keyPoints="0;0;1;1" keyTimes="0;0.18;0.55;1" calcMode="linear" dur="6.9s" begin="-5.8s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- Octocat hub -->
+  <!-- Octocat hub (drawn last, on top of the edges and packets) -->
   <g>
     <circle cx="960" cy="150" r="30" fill="none" stroke="#6ee7b7" stroke-opacity="0.4">
-      <animate attributeName="r" values="30;52" dur="4.8s" repeatCount="indefinite"/>
-      <animate attributeName="stroke-opacity" values="0.45;0" dur="4.8s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="30;52" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.45;0" dur="3s" repeatCount="indefinite"/>
     </circle>
     <circle cx="960" cy="150" r="30" fill="#6ee7b7" fill-opacity="0.08"/>
     <g>
-      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -7; 0 0" dur="6.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -7; 0 0" dur="4.5s" repeatCount="indefinite"/>
       <g transform="translate(936,126) scale(3)">
         <path fill="url(#accent)" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
       </g>
