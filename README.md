@@ -4,9 +4,9 @@
 
 <p align="center">
   <a href="https://dist-epnfqfug.devinapps.com"><b>Live demo ↗</b></a> &nbsp;·&nbsp;
-  <a href="https://github.com/dkcb/flux">FLUX</a> &nbsp;·&nbsp;
+  <a href="https://github.com/dkcb/flux">FLUXXX</a> &nbsp;·&nbsp;
   <a href="https://linkedin.com/in/dkcb">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="mailto:rscoper@proton.me">rscoper@proton.me</a>
+  <a href="mailto:rscoper@proton.me">me.reach937@passinbox.com</a>
 </p>
 
 ---
