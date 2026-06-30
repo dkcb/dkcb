@@ -3,8 +3,9 @@
 </p>
 
 <p align="center">
-  <a href="https://dkcb.github.io"><b>dkcb.github.io</b></a> &nbsp;·&nbsp;
+  <a href="https://dist-epnfqfug.devinapps.com"><b>Live demo ↗</b></a> &nbsp;·&nbsp;
   <a href="https://github.com/dkcb/flux">FLUX</a> &nbsp;·&nbsp;
+  <a href="https://linkedin.com/in/dkcb">LinkedIn</a> &nbsp;·&nbsp;
   <a href="mailto:rscoper@proton.me">rscoper@proton.me</a>
 </p>
 
@@ -40,7 +41,8 @@ I'd rather you read the code than read adjectives, so each project below says wh
 
 ### Reach me
 
-Open to internships and junior roles. Fastest way to judge me is the code — start with [FLUX](https://github.com/dkcb/flux) or the interactive overview at **[dkcb.github.io](https://dkcb.github.io)**.
+Open to internships and junior roles. Fastest way to judge me is the code — start with [FLUX](https://github.com/dkcb/flux) or click around the **[live interactive overview ↗](https://dist-epnfqfug.devinapps.com)**.
 
 - GitHub: [@dkcb](https://github.com/dkcb)
+- LinkedIn: [in/dkcb](https://linkedin.com/in/dkcb)
 - Email: [rscoper@proton.me](mailto:rscoper@proton.me)
