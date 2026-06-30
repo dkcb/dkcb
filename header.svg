@@ -20,23 +20,32 @@
   <rect width="1200" height="300" rx="20" fill="url(#bg)"/>
   <rect x="0.5" y="0.5" width="1199" height="299" rx="19.5" fill="none" stroke="#ffffff" stroke-opacity="0.06"/>
 
-  <!-- agent spend graph (right side) -->
-  <g stroke="#60a5fa" stroke-opacity="0.35" stroke-width="1.2">
-    <line x1="820" y1="80"  x2="960" y2="150"><animate attributeName="stroke-opacity" values="0.1;0.5;0.1" dur="4s" repeatCount="indefinite"/></line>
-    <line x1="960" y1="150" x2="1080" y2="90"><animate attributeName="stroke-opacity" values="0.5;0.1;0.5" dur="5s" repeatCount="indefinite"/></line>
-    <line x1="960" y1="150" x2="1040" y2="230"><animate attributeName="stroke-opacity" values="0.2;0.6;0.2" dur="4.5s" repeatCount="indefinite"/></line>
-    <line x1="960" y1="150" x2="860" y2="220"><animate attributeName="stroke-opacity" values="0.4;0.1;0.4" dur="6s" repeatCount="indefinite"/></line>
-    <line x1="1080" y1="90" x2="1130" y2="170"><animate attributeName="stroke-opacity" values="0.1;0.4;0.1" dur="5.5s" repeatCount="indefinite"/></line>
+  <!-- agent spend graph (right side): a hub node, drifting satellites, and
+       value "flowing" along the edges toward the hub -->
+  <g stroke="#60a5fa" stroke-width="1.2" stroke-dasharray="4 8">
+    <line x1="820" y1="80"  x2="960" y2="150" stroke-opacity="0.3"><animate attributeName="stroke-dashoffset" values="24;0" dur="2.4s" repeatCount="indefinite"/></line>
+    <line x1="1080" y1="90" x2="960" y2="150" stroke-opacity="0.3"><animate attributeName="stroke-dashoffset" values="24;0" dur="3s" repeatCount="indefinite"/></line>
+    <line x1="1040" y1="230" x2="960" y2="150" stroke-opacity="0.3"><animate attributeName="stroke-dashoffset" values="24;0" dur="2.7s" repeatCount="indefinite"/></line>
+    <line x1="860" y1="220" x2="960" y2="150" stroke-opacity="0.3"><animate attributeName="stroke-dashoffset" values="24;0" dur="3.3s" repeatCount="indefinite"/></line>
+    <line x1="1130" y1="170" x2="1080" y2="90" stroke-opacity="0.22"><animate attributeName="stroke-dashoffset" values="24;0" dur="3.6s" repeatCount="indefinite"/></line>
   </g>
   <g>
     <circle cx="960" cy="150" r="7" fill="#6ee7b7">
-      <animate attributeName="r" values="6;9;6" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="6;9.5;6" dur="3s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="820" cy="80" r="4" fill="#60a5fa"><animate attributeName="fill-opacity" values="0.4;1;0.4" dur="3.2s" repeatCount="indefinite"/></circle>
-    <circle cx="1080" cy="90" r="4" fill="#60a5fa"><animate attributeName="fill-opacity" values="1;0.4;1" dur="3.6s" repeatCount="indefinite"/></circle>
-    <circle cx="1040" cy="230" r="4" fill="#f0abfc"><animate attributeName="fill-opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/></circle>
-    <circle cx="860" cy="220" r="3.5" fill="#60a5fa"><animate attributeName="fill-opacity" values="1;0.3;1" dur="4.4s" repeatCount="indefinite"/></circle>
-    <circle cx="1130" cy="170" r="3.5" fill="#6ee7b7"><animate attributeName="fill-opacity" values="0.4;1;0.4" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="960" cy="150" r="7" fill="none" stroke="#6ee7b7" stroke-opacity="0.4">
+      <animate attributeName="r" values="7;26" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.45;0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="820" cy="80" r="4" fill="#60a5fa"><animate attributeName="cy" values="80;72;80" dur="6s" repeatCount="indefinite"/><animate attributeName="fill-opacity" values="0.4;1;0.4" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1080" cy="90" r="4" fill="#60a5fa"><animate attributeName="cx" values="1080;1090;1080" dur="7s" repeatCount="indefinite"/><animate attributeName="fill-opacity" values="1;0.4;1" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1040" cy="230" r="4" fill="#f0abfc"><animate attributeName="cy" values="230;222;230" dur="6.5s" repeatCount="indefinite"/><animate attributeName="fill-opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="860" cy="220" r="3.5" fill="#60a5fa"><animate attributeName="cx" values="860;852;860" dur="7.5s" repeatCount="indefinite"/><animate attributeName="fill-opacity" values="1;0.3;1" dur="4.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1130" cy="170" r="3.5" fill="#6ee7b7"><animate attributeName="cy" values="170;162;170" dur="6.8s" repeatCount="indefinite"/><animate attributeName="fill-opacity" values="0.4;1;0.4" dur="3.8s" repeatCount="indefinite"/></circle>
+    <!-- flowing value packets -->
+    <circle r="2.6" fill="#6ee7b7"><animateMotion path="M820,80 L960,150" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle r="2.6" fill="#f0abfc"><animateMotion path="M1040,230 L960,150" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle r="2.6" fill="#60a5fa"><animateMotion path="M1080,90 L960,150" dur="3s" repeatCount="indefinite"/></circle>
   </g>
 
   <!-- text -->

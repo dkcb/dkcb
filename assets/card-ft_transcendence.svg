@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="250" viewBox="0 0 460 250" fill="none" role="img" aria-label="ft_transcendence">
+  <defs>
+    <radialGradient id="g" cx="18%" cy="0%" r="80%">
+      <stop offset="0" stop-color="#60a5fa" stop-opacity="0.20"/>
+      <stop offset="55%" stop-color="#60a5fa" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .title { font: 700 23px 'Segoe UI', Ubuntu, Arial, sans-serif; fill: #eef1f6; }
+      .tag   { font: 600 12px 'JetBrains Mono', monospace; fill: #60a5fa; }
+      .desc  { font: 400 14px 'Segoe UI', Ubuntu, Arial, sans-serif; fill: #9aa3b5; }
+      .chip  { font: 500 11px 'JetBrains Mono', monospace; fill: #8b93a7; text-anchor: middle; }
+      .honest{ font: italic 400 12px 'Segoe UI', Ubuntu, Arial, sans-serif; fill: #7e8799; }
+      .arrow { font: 600 18px 'Segoe UI', Arial, sans-serif; fill: #60a5fa; }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="458" height="248" rx="18" fill="#0d1017" stroke="#60a5fa" stroke-opacity="0.28"/>
+  <rect x="1" y="1" width="458" height="248" rx="18" fill="url(#g)"/>
+  <rect x="26" y="26" width="106" height="24" rx="12" fill="#60a5fa" fill-opacity="0.12" stroke="#60a5fa" stroke-opacity="0.35"/>
+  <text x="79" y="42" class="tag" text-anchor="middle">real-time web</text>
+  <text x="430" y="44" class="arrow" text-anchor="end">→<animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/></text>
+  <text x="26" y="74" class="title">ft_transcendence</text>
+  <text x="26" y="96" class="desc">Single-page app: live multiplayer Pong +</text><text x="26" y="118" class="desc">chat, 2FA, friends, match history.</text>
+  <g><rect x="26" y="170" width="81" height="22" rx="6" fill="none" stroke="#ffffff" stroke-opacity="0.12"/><text x="66" y="185" class="chip">TypeScript</text></g><g><rect x="115" y="170" width="53" height="22" rx="6" fill="none" stroke="#ffffff" stroke-opacity="0.12"/><text x="142" y="185" class="chip">NestJS</text></g><g><rect x="176" y="170" width="46" height="22" rx="6" fill="none" stroke="#ffffff" stroke-opacity="0.12"/><text x="199" y="185" class="chip">React</text></g><g><rect x="230" y="170" width="81" height="22" rx="6" fill="none" stroke="#ffffff" stroke-opacity="0.12"/><text x="270" y="185" class="chip">WebSockets</text></g>
+  <line x1="26" y1="210" x2="434" y2="210" stroke="#60a5fa" stroke-opacity="0.18"/>
+  <text x="26" y="230" class="honest">42 group project — team of five.</text>
+</svg>

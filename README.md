@@ -16,13 +16,20 @@ I'd rather you read the code than read adjectives, so each project below says wh
 
 ### Selected work
 
-| Project | What it actually is | Stack |
-|---|---|---|
-| **[FLUX](https://github.com/dkcb/flux)** | A gateway that lets AI agents make payments under human rules: a policy engine, an append-only ledger, and a React operator dashboard. ~6k-LOC backend; the dashboard ships with a mock backend so it runs with no server. | TypeScript · Express · React · PostgreSQL · Drizzle |
-| **[ft_transcendence](https://github.com/dkcb/ft_transcendence)** | Single-page app with live multiplayer Pong and chat, 2FA, friends and match history. 42 group project (team of five). | TypeScript · NestJS · React · WebSockets |
-| **[ft_linear_regression](https://github.com/dkcb/ft_linear_regression)** | Car-price prediction with gradient-descent linear regression — the math written by hand, no ML libraries. | Python |
-| **[minishell](https://github.com/dkcb/minishell)** | A Bash-like shell: tokenizing, parsing, pipes, redirections, heredocs, built-ins and signals. 42 group project. | C · Unix |
-| **[calculator_ts](https://github.com/dkcb/calculator_ts)** | A small calculator whose logic is written test-first against a spec. 12 passing Jest tests. | TypeScript · Jest |
+<table>
+  <tr>
+    <td width="50%"><a href="https://github.com/dkcb/flux"><img src="./assets/card-flux.svg" alt="FLUX — agentic commerce gateway" width="100%"></a></td>
+    <td width="50%"><a href="https://github.com/dkcb/ft_transcendence"><img src="./assets/card-ft_transcendence.svg" alt="ft_transcendence — real-time multiplayer web app" width="100%"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/dkcb/ft_linear_regression"><img src="./assets/card-ft_linear_regression.svg" alt="ft_linear_regression — ML from scratch" width="100%"></a></td>
+    <td width="50%"><a href="https://github.com/dkcb/minishell"><img src="./assets/card-minishell.svg" alt="minishell — a Bash-like shell in C" width="100%"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/dkcb/calculator_ts"><img src="./assets/card-calculator_ts.svg" alt="calculator_ts — spec-driven, test-first" width="100%"></a></td>
+    <td width="50%"><a href="https://github.com/dkcb/C-"><img src="./assets/card-C-.svg" alt="C++ modules — 42 OOP fundamentals" width="100%"></a></td>
+  </tr>
+</table>
 
 ### Stack
 

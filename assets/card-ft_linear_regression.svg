@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="250" viewBox="0 0 460 250" fill="none" role="img" aria-label="ft_linear_regression">
+  <defs>
+    <radialGradient id="g" cx="18%" cy="0%" r="80%">
+      <stop offset="0" stop-color="#f0abfc" stop-opacity="0.20"/>
+      <stop offset="55%" stop-color="#f0abfc" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .title { font: 700 23px 'Segoe UI', Ubuntu, Arial, sans-serif; fill: #eef1f6; }
+      .tag   { font: 600 12px 'JetBrains Mono', monospace; fill: #f0abfc; }
+      .desc  { font: 400 14px 'Segoe UI', Ubuntu, Arial, sans-serif; fill: #9aa3b5; }
+      .chip  { font: 500 11px 'JetBrains Mono', monospace; fill: #8b93a7; text-anchor: middle; }
+      .honest{ font: italic 400 12px 'Segoe UI', Ubuntu, Arial, sans-serif; fill: #7e8799; }
+      .arrow { font: 600 18px 'Segoe UI', Arial, sans-serif; fill: #f0abfc; }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="458" height="248" rx="18" fill="#0d1017" stroke="#f0abfc" stroke-opacity="0.28"/>
+  <rect x="1" y="1" width="458" height="248" rx="18" fill="url(#g)"/>
+  <rect x="26" y="26" width="120" height="24" rx="12" fill="#f0abfc" fill-opacity="0.12" stroke="#f0abfc" stroke-opacity="0.35"/>
+  <text x="86" y="42" class="tag" text-anchor="middle">ML from scratch</text>
+  <text x="430" y="44" class="arrow" text-anchor="end">→<animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/></text>
+  <text x="26" y="74" class="title">ft_linear_regression</text>
+  <text x="26" y="96" class="desc">Car-price prediction by gradient-descent</text><text x="26" y="118" class="desc">linear regression — math by hand, no ML</text><text x="26" y="140" class="desc">libraries.</text>
+  <g><rect x="26" y="170" width="53" height="22" rx="6" fill="none" stroke="#ffffff" stroke-opacity="0.12"/><text x="52" y="185" class="chip">Python</text></g><g><rect x="87" y="170" width="123" height="22" rx="6" fill="none" stroke="#ffffff" stroke-opacity="0.12"/><text x="148" y="185" class="chip">gradient descent</text></g>
+  <line x1="26" y1="210" x2="434" y2="210" stroke="#f0abfc" stroke-opacity="0.18"/>
+  <text x="26" y="230" class="honest">Normalization + divergence/NaN safeguards.</text>
+</svg>
