@@ -65,7 +65,7 @@
   </g>
 
   <!-- text -->
-  <text x="70" y="135" class="name">Dan K</text>
+  <text x="70" y="135" class="name">Dan</text>
   <text x="72" y="185" class="grad">
     <tspan class="dot">Projects from low-level to AI agents infrastructure </tspan>
     <tspan class="dot">_<animate attributeName="fill-opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan>
