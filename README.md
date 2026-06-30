@@ -1,38 +1,39 @@
-# Hi, I'm Dan 👋
+<p align="center">
+  <img src="./header.svg" alt="Dan K — systems for AI agents" width="100%" />
+</p>
 
-Software engineering student at **Codam Coding College** (42 network), Amsterdam.
-I build across the stack — from low-level **C/C++** systems work to modern **TypeScript** web apps and **Python** machine learning.
-
-- 🔭 Currently exploring **agentic systems** and **applied ML**
-- 🧠 Strong fundamentals from the 42 curriculum: memory management, data structures, Unix systems programming
-- 🌍 Based in Amsterdam · open to internships & junior roles
+<p align="center">
+  <a href="https://dkcb.github.io"><b>dkcb.github.io</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/dkcb/flux">FLUX</a> &nbsp;·&nbsp;
+  <a href="mailto:rscoper@proton.me">rscoper@proton.me</a>
+</p>
 
 ---
 
-## 🚀 Featured projects
+Software-engineering student at **Codam (42)**, Amsterdam. I work from low-level **C** up through **TypeScript** full-stack and **Python** ML. Most recently I've been building infrastructure that lets AI agents hold wallets and spend money under human-set rules.
 
-| Project | What it is | Stack |
+I'd rather you read the code than read adjectives, so each project below says what it actually is — including the caveats.
+
+### Selected work
+
+| Project | What it actually is | Stack |
 |---|---|---|
-| **[FLUX — Agentic Commerce Gateway](https://github.com/dkcb/flux)** | Human-governed wallets & payments for AI agents: KYA policy engine, append-only ledger, Mollie payments, React operator dashboard | TypeScript · Express · Drizzle · PostgreSQL · React · Vite |
-| **[ft_transcendence](https://github.com/dkcb/ft_transcendence)** | Full single-page web app with a real-time multiplayer Pong game | TypeScript · Web |
-| **[multilayer perceptron](https://github.com/dkcb/multilayer_preception)** | Neural-network classifier built from scratch | Python · NumPy |
-| **[ft_linear_regression](https://github.com/dkcb/ft_linear_regression)** | Price/mileage prediction via gradient-descent linear regression | Python |
-| **[minishell](https://github.com/dkcb/minishell)** | A Bash-like shell: parsing, pipes, redirections, env handling | C |
+| **[FLUX](https://github.com/dkcb/flux)** | A gateway that lets AI agents make payments under human rules: a policy engine, an append-only ledger, and a React operator dashboard. ~6k-LOC backend; the dashboard ships with a mock backend so it runs with no server. | TypeScript · Express · React · PostgreSQL · Drizzle |
+| **[ft_transcendence](https://github.com/dkcb/ft_transcendence)** | Single-page app with live multiplayer Pong and chat, 2FA, friends and match history. 42 group project (team of five). | TypeScript · NestJS · React · WebSockets |
+| **[ft_linear_regression](https://github.com/dkcb/ft_linear_regression)** | Car-price prediction with gradient-descent linear regression — the math written by hand, no ML libraries. | Python |
+| **[minishell](https://github.com/dkcb/minishell)** | A Bash-like shell: tokenizing, parsing, pipes, redirections, heredocs, built-ins and signals. 42 group project. | C · Unix |
+| **[calculator_ts](https://github.com/dkcb/calculator_ts)** | A small calculator whose logic is written test-first against a spec. 12 passing Jest tests. | TypeScript · Jest |
 
----
+### Stack
 
-## 🛠️ Tech
+**Languages** C · C++ · TypeScript · Python
+**Web** React · Node · Express · NestJS · Vite
+**Data / ML** PostgreSQL · Drizzle · NumPy · models from scratch
+**Tooling** Git · Linux · Jest · Docker
 
-**Languages:** C · C++ · TypeScript · Python · JavaScript
-**Web:** React · Node.js · Express · Vite · Tailwind
-**Data/ML:** NumPy · linear models · neural nets (from scratch)
-**Tooling:** Git · PostgreSQL · Drizzle ORM · Linux
+### Reach me
 
----
+Open to internships and junior roles. Fastest way to judge me is the code — start with [FLUX](https://github.com/dkcb/flux) or the interactive overview at **[dkcb.github.io](https://dkcb.github.io)**.
 
-## 📫 Reach me
-
-[![GitHub](https://img.shields.io/badge/GitHub-dkcb-181717?logo=github)](https://github.com/dkcb)
-<!-- Add your real links below and delete this comment -->
-<!-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin)](https://www.linkedin.com/in/YOUR-HANDLE) -->
-<!-- 📧 your.email@example.com -->
+- GitHub: [@dkcb](https://github.com/dkcb)
+- Email: [rscoper@proton.me](mailto:rscoper@proton.me)
