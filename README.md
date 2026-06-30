@@ -40,9 +40,3 @@ I'd rather you read the code than read adjectives, so each project below says wh
 **Tooling** Git · Linux · Jest · Docker
 
 ### Reach me
-
-Open to internships and junior roles. Fastest way to judge me is the code — start with [FLUX](https://github.com/dkcb/flux) or click around the **[live interactive overview ↗](https://dist-epnfqfug.devinapps.com)**.
-
-- GitHub: [@dkcb](https://github.com/dkcb)
-- LinkedIn: [in/dkcb](https://linkedin.com/in/dkcb)
-- Email: [rscoper@proton.me](mailto:rscoper@proton.me)
