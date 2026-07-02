@@ -1,17 +1,17 @@
 <p align="center">
-  <img src="./header.svg" alt="Dan K — systems for AI agents" width="100%" />
+  <img src="./header.svg" alt="Dan K — C · C++ · TypeScript · Python, Codam Amsterdam" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://dist-epnfqfug.devinapps.com"><b>Live demo ↗</b></a> &nbsp;·&nbsp;
+  <a href="https://dist-epnfqfug.devinapps.com"><b>FLUXXX live demo ↗</b></a> &nbsp;·&nbsp;
   <a href="https://github.com/dkcb/flux">FLUXXX</a> &nbsp;·&nbsp;
   <a href="https://linkedin.com/in/dkcb">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="mailto:rscoper@proton.me">me.reach937@passinbox.com</a>
+  <a href="mailto:me.reach937@passinbox.com">me.reach937@passinbox.com</a>
 </p>
 
 ---
 
-Software-engineering student at **Codam (42)**, Amsterdam. I work from low-level **C** up through **TypeScript** full-stack and **Python** ML. Most recently I've been building infrastructure that lets AI agents hold wallets and spend money under human-set rules.
+Software-engineering student at **Codam (42)**, Amsterdam. I work from low-level **C** up through **TypeScript** web development and **Python**. Most recently I built the front-end of **FLUX** — a 3-day-megathon team project where AI agents hold wallets and spend money under human-set rules.
 
 I'd rather you read the code than read adjectives, so each project below says what it actually is — including the caveats.
 
@@ -35,8 +35,8 @@ I'd rather you read the code than read adjectives, so each project below says wh
 ### Stack
 
 **Languages** C · C++ · TypeScript · Python
-**Web** React · Node · Express · NestJS · Vite
-**Data / ML** PostgreSQL · Drizzle · NumPy · models from scratch
+**Web** React · Vite · TypeScript (+ Node/NestJS through team projects)
+**Data / ML** Python · matplotlib · a gradient-descent model written from scratch
 **Tooling** Git · Linux · Jest · Docker
 
-### Reach me
+Open to internships and junior roles. Fastest way to judge me is the code — start with [FLUXXX](https://github.com/dkcb/flux) or click around its **[live demo ↗](https://dist-epnfqfug.devinapps.com)** (the front-end is my part).

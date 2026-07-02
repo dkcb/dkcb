@@ -22,5 +22,5 @@
   <text x="26" y="96" class="desc">Single-page app: live multiplayer Pong +</text><text x="26" y="118" class="desc">chat, 2FA, friends, match history.</text>
   <g><rect x="26" y="170" width="81" height="22" rx="6" fill="none" stroke="#ffffff" stroke-opacity="0.12"/><text x="66" y="185" class="chip">TypeScript</text></g><g><rect x="115" y="170" width="53" height="22" rx="6" fill="none" stroke="#ffffff" stroke-opacity="0.12"/><text x="142" y="185" class="chip">NestJS</text></g><g><rect x="176" y="170" width="46" height="22" rx="6" fill="none" stroke="#ffffff" stroke-opacity="0.12"/><text x="199" y="185" class="chip">React</text></g><g><rect x="230" y="170" width="81" height="22" rx="6" fill="none" stroke="#ffffff" stroke-opacity="0.12"/><text x="270" y="185" class="chip">WebSockets</text></g>
   <line x1="26" y1="210" x2="434" y2="210" stroke="#60a5fa" stroke-opacity="0.18"/>
-  <text x="26" y="230" class="honest">42 group project — team of five.</text>
+  <text x="26" y="230" class="honest">42 group project.</text>
 </svg>

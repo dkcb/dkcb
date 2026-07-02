@@ -7,13 +7,13 @@ OUT = os.path.dirname(os.path.abspath(__file__))
 
 PROJECTS = [
     dict(slug="flux", name="FLUX", tag="agentic commerce", accent="#6ee7b7",
-         desc="AI agents hold wallets and pay under human rules: policy engine, append-only ledger, React dashboard.",
-         chips=["TypeScript", "Express", "React", "PostgreSQL"],
-         honest="~6k-LOC backend · dashboard runs on a mock backend, no server needed."),
+         desc="Payments gateway where AI agents hold wallets and pay under human-set rules — built by a team in a 3-day megathon.",
+         chips=["React", "TypeScript", "Vite"],
+         honest="My part: the front-end (~12k LOC) · backend by teammates."),
     dict(slug="ft_transcendence", name="ft_transcendence", tag="real-time web", accent="#60a5fa",
          desc="Single-page app: live multiplayer Pong + chat, 2FA, friends, match history.",
          chips=["TypeScript", "NestJS", "React", "WebSockets"],
-         honest="42 group project — team of five."),
+         honest="42 group project."),
     dict(slug="ft_linear_regression", name="ft_linear_regression", tag="ML from scratch", accent="#f0abfc",
          desc="Car-price prediction by gradient-descent linear regression — math by hand, no ML libraries.",
          chips=["Python", "gradient descent"],
@@ -27,7 +27,7 @@ PROJECTS = [
          chips=["TypeScript", "Jest"],
          honest="12 passing unit tests."),
     dict(slug="C-", name="C++ modules", tag="OOP fundamentals", accent="#a78bfa",
-         desc="The 42 C++ piscine (CPP00-09): classes, polymorphism, operators, exceptions, templates, STL.",
+         desc="The 42 C++ modules (CPP00-06, 08-09): classes, polymorphism, operators, exceptions, STL.",
          chips=["C++98", "OOP"],
          honest="Curriculum coursework, C++98 norm."),
 ]

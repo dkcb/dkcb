@@ -19,8 +19,8 @@
   <text x="90" y="42" class="tag" text-anchor="middle">agentic commerce</text>
   <text x="430" y="44" class="arrow" text-anchor="end">→<animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/></text>
   <text x="26" y="74" class="title">FLUX</text>
-  <text x="26" y="96" class="desc">AI agents hold wallets and pay under human</text><text x="26" y="118" class="desc">rules: policy engine, append-only ledger,</text><text x="26" y="140" class="desc">React dashboard.</text>
-  <g><rect x="26" y="170" width="81" height="22" rx="6" fill="none" stroke="#ffffff" stroke-opacity="0.12"/><text x="66" y="185" class="chip">TypeScript</text></g><g><rect x="115" y="170" width="60" height="22" rx="6" fill="none" stroke="#ffffff" stroke-opacity="0.12"/><text x="145" y="185" class="chip">Express</text></g><g><rect x="183" y="170" width="46" height="22" rx="6" fill="none" stroke="#ffffff" stroke-opacity="0.12"/><text x="206" y="185" class="chip">React</text></g><g><rect x="237" y="170" width="81" height="22" rx="6" fill="none" stroke="#ffffff" stroke-opacity="0.12"/><text x="278" y="185" class="chip">PostgreSQL</text></g>
+  <text x="26" y="96" class="desc">Payments gateway where AI agents hold</text><text x="26" y="118" class="desc">wallets and pay under human-set rules —</text><text x="26" y="140" class="desc">built by a team in a 3-day megathon.</text>
+  <g><rect x="26" y="170" width="46" height="22" rx="6" fill="none" stroke="#ffffff" stroke-opacity="0.12"/><text x="49" y="185" class="chip">React</text></g><g><rect x="80" y="170" width="81" height="22" rx="6" fill="none" stroke="#ffffff" stroke-opacity="0.12"/><text x="120" y="185" class="chip">TypeScript</text></g><g><rect x="169" y="170" width="39" height="22" rx="6" fill="none" stroke="#ffffff" stroke-opacity="0.12"/><text x="188" y="185" class="chip">Vite</text></g>
   <line x1="26" y1="210" x2="434" y2="210" stroke="#6ee7b7" stroke-opacity="0.18"/>
-  <text x="26" y="230" class="honest">~6k-LOC backend · dashboard runs on a mock backend, no server needed.</text>
+  <text x="26" y="230" class="honest">My part: the front-end (~12k LOC) · backend by teammates.</text>
 </svg>

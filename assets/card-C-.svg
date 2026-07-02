@@ -19,7 +19,7 @@
   <text x="90" y="42" class="tag" text-anchor="middle">OOP fundamentals</text>
   <text x="430" y="44" class="arrow" text-anchor="end">→<animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/></text>
   <text x="26" y="74" class="title">C++ modules</text>
-  <text x="26" y="96" class="desc">The 42 C++ piscine (CPP00-09): classes,</text><text x="26" y="118" class="desc">polymorphism, operators, exceptions,</text><text x="26" y="140" class="desc">templates, STL.</text>
+  <text x="26" y="96" class="desc">The 42 C++ modules (CPP00-06, 08-09):</text><text x="26" y="118" class="desc">classes, polymorphism, operators,</text><text x="26" y="140" class="desc">exceptions, STL.</text>
   <g><rect x="26" y="170" width="46" height="22" rx="6" fill="none" stroke="#ffffff" stroke-opacity="0.12"/><text x="49" y="185" class="chip">C++98</text></g><g><rect x="80" y="170" width="32" height="22" rx="6" fill="none" stroke="#ffffff" stroke-opacity="0.12"/><text x="96" y="185" class="chip">OOP</text></g>
   <line x1="26" y1="210" x2="434" y2="210" stroke="#a78bfa" stroke-opacity="0.18"/>
   <text x="26" y="230" class="honest">Curriculum coursework, C++98 norm.</text>
