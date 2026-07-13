@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="./header.svg" alt="Dan K — C · C++ · TypeScript · Python, Codam Amsterdam" width="100%" />
+  <img src="./header.svg" alt="Dan K — C · C++ · TypeScript · JavaScript · Python, Codam Amsterdam" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://dist-epnfqfug.devinapps.com"><b>FLUXXX live demo ↗</b></a> &nbsp;·&nbsp;
-  <a href="https://github.com/dkcb/flux">FLUXXX</a> &nbsp;·&nbsp;
+  <a href="https://dist-epnfqfug.devinapps.com"><b>FLUX live demo ↗</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/dkcb/flux">FLUX</a> &nbsp;·&nbsp;
   <a href="https://linkedin.com/in/dkcb">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="mailto:me.reach937@passinbox.com">me.reach937@passinbox.com</a>
+  <a href="mailto:rscoper@proton.me">rscoper@proton.me</a>
 </p>
 
 ---
@@ -32,11 +32,28 @@ I'd rather you read the code than read adjectives, so each project below says wh
   </tr>
 </table>
 
+### More projects
+
+- [multi-social](https://github.com/dkcb/multi-social) — unified social inbox
+- [multi-tab-addon](https://github.com/dkcb/multi-tab-addon) — nested tab groups for Firefox
+- [solar_overkill](https://github.com/dkcb/solar_overkill) — BMS monitoring fork
+- [n8n-mcp](https://github.com/dkcb/n8n-mcp) — n8n MCP server
+- [multilayer_preception](https://github.com/dkcb/multilayer_preception) — MLP placeholder
+- [get_next_line](https://github.com/dkcb/get_next_line) — read line by line in C
+- [get_next_line_unconventional](https://github.com/dkcb/get_next_line_unconventional) — unconventional GNL
+- [philosophers](https://github.com/dkcb/philosophers) — dining philosophers
+- [pipex](https://github.com/dkcb/pipex) — shell pipes in C
+- [push_swap](https://github.com/dkcb/push_swap) — stack sorting
+- [fdf](https://github.com/dkcb/fdf) — 3D wireframe
+- [ft_printf](https://github.com/dkcb/ft_printf) — printf reimplementation
+- [cube3d](https://github.com/dkcb/cube3d) — raycaster
+- [libft](https://github.com/dkcb/libft) — first C library
+
 ### Stack
 
-**Languages** C · C++ · TypeScript · Python
-**Web** React · Vite · TypeScript (+ Node/NestJS through team projects)
+**Languages** C · C++ · TypeScript · JavaScript · Python
+**Web** React · Vite · TypeScript · WebExtensions · Node/NestJS through team projects
 **Data / ML** Python · matplotlib · a gradient-descent model written from scratch
 **Tooling** Git · Linux · Jest · Docker
 
-Open to internships and junior roles. Fastest way to judge me is the code — start with [FLUXXX](https://github.com/dkcb/flux) or click around its **[live demo ↗](https://dist-epnfqfug.devinapps.com)** (the front-end is my part).
+Open to internships and junior roles. Fastest way to judge me is the code — start with [FLUX](https://github.com/dkcb/flux) or click around its **[live demo ↗](https://dist-epnfqfug.devinapps.com)** (the front-end is my part).
